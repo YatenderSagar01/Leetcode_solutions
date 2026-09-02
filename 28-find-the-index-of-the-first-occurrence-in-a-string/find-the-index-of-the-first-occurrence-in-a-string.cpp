@@ -1,7 +1,6 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int occ = -1;
         int first = haystack.size();
         int second = needle.size();
         for (int i = 0; i <= first - second; i++) {
